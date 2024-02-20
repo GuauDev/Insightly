@@ -83,12 +83,7 @@ export default function Login({ searchParams }: { searchParams: { message: strin
 					placeholder="••••••••"
 					required
 				/>
-				<Button
-					variant="outline"
-					className="rounded-md text-black font-medium text-1xl"
-				>
-					Sign In
-				</Button>
+				<Button variant="outline">Sign In</Button>
 				<Button formAction={signUp} className=" rounded-md px-4 py-2  mb-2">
 					Sign Up
 				</Button>
